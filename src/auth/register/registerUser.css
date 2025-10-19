@@ -1,0 +1,86 @@
+/* RegisterUser.css */
+
+.register-form {
+  width: 450px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  margin-left: 5em;
+
+
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-group input[type="file"] {
+  padding: 5px 0;
+}
+
+.image-preview {
+  margin-top: 0.5rem;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(127, 129, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:disabled {
+  background-color: #8bc34a;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #c0392b;
+  text-align: center;
+  font-weight: 500;
+}
+
+.success-message {
+  margin-top: 1rem;
+  color: #27ae60;
+  text-align: center;
+  font-weight: 500;
+}
